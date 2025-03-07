@@ -66,13 +66,13 @@ class ExplorePage extends StatelessWidget {
       body: Stack(
         children: [
           SizedBox(
-            width: double.infinity,
-            height: double.infinity,
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
             child: InkWell(
               child: Image.network(
                 "https://puzzlemania-154aa.kxcdn.com/products/2024/puzzle-educa-150-pieces-world-map-with-monuments.webp",
-                width: double.infinity,
-                height: double.infinity,
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height,
                 fit: BoxFit.cover,
               ),
               onTap: () {

@@ -107,7 +107,7 @@ class ContributePageState extends State<ContributePage> {
               ],
             ),
             SizedBox(
-              height: 40,
+              height: 50,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: contributeMenueNames.length,
