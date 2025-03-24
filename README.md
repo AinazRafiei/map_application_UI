@@ -1,4 +1,4 @@
-# googlemap
+# map_ui
 
 This project is about implementing a simple map application like googlemap. It can run on ios and android also on web.
 
